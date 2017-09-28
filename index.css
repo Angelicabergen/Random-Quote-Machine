@@ -1,0 +1,58 @@
+.background{
+    background-image: url(https://static.pexels.com/photos/360912/pexels-photo-360912.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.parent-div{
+    height: 400px;
+}
+.text-box{
+    background-color: #000;
+    opacity: .65;
+    padding: 0.5%;
+    border-radius: 10px;
+    height: auto;
+    width: 50%;
+    position: relative;
+    top: 50%;
+    margin: auto;
+}
+.quote-text{
+    color:white;
+    text-align: left;
+    padding: 1%;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.author-text{
+    color: white;
+    text-align: right;
+    padding: 1%;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#twitter-btn:hover, #get-quote-btn:hover{
+    color: black;
+    background-color: white;
+}
+#twitter-btn{
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    text-align: left;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    border: 2px solid white;
+}
+#get-quote-btn{
+    text-align: right;
+    color: #ffffff;
+    background-color: transparent;
+     border: 2px solid white;
+     font-size: 125%;
+     position:fixed;
+     top: 5px;
+     right: 0px;
+}
